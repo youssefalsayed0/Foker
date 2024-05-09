@@ -397,11 +397,13 @@ ul {
   border-bottom: 1px dashed #999999;
   margin-bottom: 25px;
   padding-bottom: 25px;
+  font-size: 16px;
 }
 
 .about .container .text .box .details {
   display: flex;
   align-items: center;
+  font-size: 15px;
 }
 
 .about .container .text .box .details> :not(:first-child) {
@@ -426,6 +428,7 @@ ul {
 }
 
 .about .container .text .box .download-btn a {
+  font-size: 15px;
   background-color: var(--main-color);
   border-radius: 4px;
   color: #ffffff;
@@ -569,6 +572,7 @@ ul {
 
 .services .container .serv-box .box p {
   margin: 0;
+  font-size: 15px;
 }
 
 .services .container .serv-box .box:hover .icon {
@@ -914,12 +918,17 @@ div.gallery .item:hover img {
   -o-transition: var(--main-transition);
 }
 
+.blog .container .blog-box .content p {
+  font-size: 15px;
+}
+
 .blog .container .blog-box .content .title:hover {
   color: var(--main-color);
 }
 
 .blog .container .blog-box .content .more a {
   color: #333333;
+  font-size: 14px;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
